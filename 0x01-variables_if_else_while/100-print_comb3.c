@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int i, e,
+	int i, e;
 
 	i = 48;
 	0 = 48;
