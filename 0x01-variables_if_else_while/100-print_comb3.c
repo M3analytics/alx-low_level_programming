@@ -3,6 +3,8 @@
 /**
  * main - Prints numbers between 00 to 89.
  *
+ * Description: Prints all the single digit numbers of base 10
+ *
  * Return: Always 0 (Success)
  */
 
