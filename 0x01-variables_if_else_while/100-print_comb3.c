@@ -13,7 +13,7 @@ int main(void)
 	int i, e;
 
 	i = 48;
-	0 = 48;
+	e = 48;
 
 	while (e < 58)
 	{
@@ -29,7 +29,7 @@ int main(void)
 					break;
 				}
 				putchar(',');
-				putchar('');
+				putchar(' ');
 			}
 			i++;
 		}
