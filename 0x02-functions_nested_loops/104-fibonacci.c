@@ -14,11 +14,11 @@ int main(void)
 	j = 1;
 	k = 2;
 
-	printf("%1u", j);
+	printf("%1lu", j);
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(", %1u", k);
+		printf(", %1lu", k);
 		k = k + j;
 		j = k - j;
 
