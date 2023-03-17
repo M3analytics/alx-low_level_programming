@@ -21,6 +21,10 @@ int main(void)
 		{
 			sum3 = sum3 + 1;
 		}
+		else if ((i % 5) == 0)
+		{
+			sum5 = sum5 + i;
+		}
 	}
 	sum = sum3 + sum5;
 	printf("%1u\n", sum);
