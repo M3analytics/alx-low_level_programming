@@ -7,11 +7,12 @@
  *
  * Return: Always 0 (success)
  */
-Int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
-	char 0;
+	char o;
 	int (*func)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -29,7 +30,7 @@ Int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	0 = *argv[2];
+	o = *argv[2];
 
 	if ((o == '/' || o == '%') && arg2 == 0)
 	{
