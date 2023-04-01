@@ -1,1 +1,1 @@
-This is a repository which holds directories about the C programming language.
+This repository holds directories about the C programming language.
